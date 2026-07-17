@@ -1,0 +1,194 @@
+{
+  "general": {
+    "action": "ntgl:gun",
+    "enchantable": false,
+    "rate": 2,
+    "gripType": "ntgl:one_handed",
+    "category": "pistol",
+    "loadingType": "magazine",
+    "maxAmmo": 12,
+    "reloadTime": 30,
+    "reloadAmount": 2,
+    "recoilAngle": 5.0,
+    "recoilKick": 0.4,
+    "recoilAdsReduction": 0.25,
+    "alwaysSpread": true,
+    "oneHanded": true,
+    "spread": 1.0,
+    "ammo": [
+      "nukacraft:round10mm",
+      "nukacraft:round10mm_piercing"
+    ]
+  },
+  "modes": {
+    "ntgl:secondary": {
+      "general": {
+        "action": "ntgl:scope"
+      },
+      "zoom": {
+        "offset": [ 1.5, 5.5, 4.0],
+        "fovModifier": 0.7
+      }
+    }
+  },
+  "ammoData": {
+    "nukacraft:round10mm": {
+      "ammo": {
+        "type": "ntgl:standard"
+      },
+      "projectile":{
+        "damage": 11.0,
+        "size": 0.2,
+        "speed": 26.0,
+        "life": 12
+      }
+    },
+    "nukacraft:round10mm_piercing": {
+      "ammo": {
+        "type": "ntgl:piercing"
+      },
+      "projectile":{
+        "damage": 14.0,
+        "size": 0.2,
+        "speed": 26.0,
+        "life": 12
+      }
+    }
+  },
+  "animations": {
+    "ntgl:reload": "ntgl:pistol_reload"
+  },
+  "sounds": {
+    "fire": "nukacraft:item.pistol10mm.fire",
+    "reload": "nukacraft:item.pistol10mm.reload",
+    "cock": "nukacraft:item.pistol10mm.cock",
+    "silencedFire": "nukacraft:item.pistol10mm.silenced_fire"
+  },
+  "textures": {
+    "default"         : "nukacraft:textures/weapons/pistol10mm/pistol10mm_default.png",
+    "blue"            : "nukacraft:textures/weapons/pistol10mm/pistol10mm_blue.png",
+    "light_blue"      : "nukacraft:textures/weapons/pistol10mm/pistol10mm_light_blue.png",
+    "black"           : "nukacraft:textures/weapons/pistol10mm/pistol10mm_black.png",
+    "brown"           : "nukacraft:textures/weapons/pistol10mm/pistol10mm_brown.png",
+    "gray"            : "nukacraft:textures/weapons/pistol10mm/pistol10mm_gray.png",
+    "light_gray"      : "nukacraft:textures/weapons/pistol10mm/pistol10mm_light_gray.png",
+    "cyan"            : "nukacraft:textures/weapons/pistol10mm/pistol10mm_cyan.png",
+    "green"           : "nukacraft:textures/weapons/pistol10mm/pistol10mm_green.png",
+    "orange"          : "nukacraft:textures/weapons/pistol10mm/pistol10mm_orange.png",
+    "yellow"          : "nukacraft:textures/weapons/pistol10mm/pistol10mm_yellow.png",
+    "red"             : "nukacraft:textures/weapons/pistol10mm/pistol10mm_red.png",
+    "purple"          : "nukacraft:textures/weapons/pistol10mm/pistol10mm_purple.png",
+    "white"           : "nukacraft:textures/weapons/pistol10mm/pistol10mm_white.png",
+    "magenta"         : "nukacraft:textures/weapons/pistol10mm/pistol10mm_magenta.png",
+    "lime"            : "nukacraft:textures/weapons/pistol10mm/pistol10mm_lime.png",
+    "pink"            : "nukacraft:textures/weapons/pistol10mm/pistol10mm_pink.png",
+    "clean"           : "nukacraft:textures/weapons/pistol10mm/pistol10mm_clean.png",
+    "gold"            : "nukacraft:textures/weapons/pistol10mm/pistol10mm_gold.png",
+    "colorful_titan"  : "nukacraft:textures/weapons/pistol10mm/pistol10mm_colorful_titan.png"
+  },
+  "modules": {
+    "attachments": {
+      "ntgl:scope": [
+        {
+          "name": "scope_1",
+          "item": "nukacraft:pistol_holographic_sight",
+          "offset":[0.0, 0.5, 0.0]
+        },
+        {
+          "name": "scope_2",
+          "item": "nukacraft:pistol_collimator_sight",
+          "offset": [0.0, 0.5, 0.0]
+        },
+        {
+          "name": "scope_3",
+          "item": "nukacraft:pistol_hunting_optics"
+        },
+        {
+          "name": "scope_4",
+          "item": "nukacraft:pistol_iron_sight"
+        },
+        {
+          "name": "scope_5",
+          "item": "nukacraft:pistol_scout_sight"
+        },
+        {
+          "name": "scope_6",
+          "item": "nukacraft:laser_all_vision"
+        }
+      ],
+      "ntgl:barrel": [
+        {
+          "name": "barrel_1",
+          "item": "nukacraft:pistol_silencer",
+          "hide": [
+            "muzzle_flash"
+          ]
+        },
+        {
+          "name": "barrel_2",
+          "item": "nukacraft:pistol_flame_hider"
+        },
+        {
+          "name": "barrel_3",
+          "item": "nukacraft:pistol_compensator"
+        },
+        {
+          "name": "barrel_4",
+          "item": "nukacraft:pistol_heavy_barrel"
+        },
+        {
+          "name": "barrel_5",
+          "item": "nukacraft:pistol_long_barrel"
+        }
+      ],
+      "ntgl:grip": [
+        {
+          "name": "grip_1",
+          "item": "nukacraft:pistol_specialised_grip",
+          "hide": [
+            "grip_default"
+          ]
+        },
+        {
+          "name": "grip_3",
+          "item": "nukacraft:pistol_tactical_grip",
+          "hide": [
+            "grip_default"
+          ]
+        },
+        {
+          "name": "grip_4",
+          "item": "nukacraft:pistol_comfort_grip",
+          "hide": [
+            "grip_default"
+          ]
+        },
+        {
+          "name": "grip_2",
+          "item": "nukacraft:pistol_weighted_grip",
+          "hide": [
+            "grip_default"
+          ]
+        }
+      ],
+      "ntgl:magazine": [
+        {
+          "name": "magazine_1",
+          "item": "nukacraft:pistol_extended_magazine"
+        },
+        {
+          "name": "magazine_2",
+          "item": "nukacraft:pistol_huge_magazine"
+        },
+        {
+          "name": "magazine_3",
+          "item": "nukacraft:pistol_quick_magazine"
+        },
+        {
+          "name": "magazine_4",
+          "item": "nukacraft:pistol_drum_magazine"
+        }
+      ]
+    }
+  }
+}
