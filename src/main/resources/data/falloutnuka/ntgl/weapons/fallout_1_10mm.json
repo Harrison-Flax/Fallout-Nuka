@@ -65,7 +65,7 @@
     "silencedFire": "nukacraft:item.pistol10mm.silenced_fire"
   },
   "textures": {
-    "default"         : "nukacraft:textures/weapons/pistol10mm/pistol10mm_default.png",
+    "default"         : "falloutnuka:textures/item/fallout_1_10mm.png",
     "blue"            : "nukacraft:textures/weapons/pistol10mm/pistol10mm_blue.png",
     "light_blue"      : "nukacraft:textures/weapons/pistol10mm/pistol10mm_light_blue.png",
     "black"           : "nukacraft:textures/weapons/pistol10mm/pistol10mm_black.png",
