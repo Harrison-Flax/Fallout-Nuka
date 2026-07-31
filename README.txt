@@ -1,3 +1,4 @@
+Reference: https://github.com/Jetug/NukaTeamGunLib/wiki/NTGL-gun-packs
 
 Source installation information for modders
 -------------------------------------------
