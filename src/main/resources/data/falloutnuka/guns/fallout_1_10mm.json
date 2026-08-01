@@ -66,7 +66,7 @@
     "enchantedFire": "nukacraft:item.pistol10mm.enchanted_fire"
   },
   "textures": {
-    "default"   : "falloutnuka:textures/item/fallout_1_10mm.png",
+    "default"   : "falloutnuka:textures/guns/fallout_1_10mm/fallout_1_10mm.png",
     "blue"      : "nukacraft:textures/weapons/classic10mm/classic10mm_blue.png",
     "light_blue": "nukacraft:textures/weapons/classic10mm/classic10mm_light_blue.png",
     "black"     : "nukacraft:textures/weapons/classic10mm/classic10mm_black.png",
