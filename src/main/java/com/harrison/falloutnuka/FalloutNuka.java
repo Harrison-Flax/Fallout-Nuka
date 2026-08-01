@@ -1,5 +1,6 @@
 package com.harrison.falloutnuka;
 
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -19,6 +20,7 @@ public class FalloutNuka
 
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MODID);
 
+    // Reference: https://github.com/Jetug/NukaTeamGunLib/wiki/Item-registry
     public static final RegistryObject<GunItem> FALLOUT_10MM = ITEMS.register("fallout_1_10mm",
             () -> new GunItem(new Item.Properties().stacksTo(1)));
 
@@ -29,8 +31,8 @@ public class FalloutNuka
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if (event.getTabKey().location().toString().equals("nukacraft:weapons")) {
-            event.accept(FALLOUT_10MM);
+        if (event.getTabKey().location().toString().equals("nukacraft:nuka_equip")) {
+            event.accept(FALLOUT_10MM.get());
         }
     }
 }
