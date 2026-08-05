@@ -5,6 +5,7 @@
     "rate": 6,
     "gripType": "ntgl:one_handed",
     "loadingType": "magazine",
+    "fireMode": ["ntgl:semi"],
     "category": "pistol",
     "maxAmmo": 10,
     "damage": 9.0,
@@ -66,25 +67,7 @@
     "enchantedFire": "nukacraft:item.pistol10mm.enchanted_fire"
   },
   "textures": {
-    "default"   : "falloutnuka:textures/guns/fallout_1_10mm/fallout_1_10mm.png",
-    "blue"      : "nukacraft:textures/weapons/classic10mm/classic10mm_blue.png",
-    "light_blue": "nukacraft:textures/weapons/classic10mm/classic10mm_light_blue.png",
-    "black"     : "nukacraft:textures/weapons/classic10mm/classic10mm_black.png",
-    "brown"     : "nukacraft:textures/weapons/classic10mm/classic10mm_brown.png",
-    "gray"      : "nukacraft:textures/weapons/classic10mm/classic10mm_gray.png",
-    "light_gray": "nukacraft:textures/weapons/classic10mm/classic10mm_light_gray.png",
-    "cyan"      : "nukacraft:textures/weapons/classic10mm/classic10mm_cyan.png",
-    "green"     : "nukacraft:textures/weapons/classic10mm/classic10mm_green.png",
-    "orange"    : "nukacraft:textures/weapons/classic10mm/classic10mm_orange.png",
-    "yellow"    : "nukacraft:textures/weapons/classic10mm/classic10mm_yellow.png",
-    "red"       : "nukacraft:textures/weapons/classic10mm/classic10mm_red.png",
-    "purple"    : "nukacraft:textures/weapons/classic10mm/classic10mm_purple.png",
-    "white"     : "nukacraft:textures/weapons/classic10mm/classic10mm_white.png",
-    "magenta"   : "nukacraft:textures/weapons/classic10mm/classic10mm_magenta.png",
-    "lime"      : "nukacraft:textures/weapons/classic10mm/classic10mm_lime.png",
-    "pink"      : "nukacraft:textures/weapons/classic10mm/classic10mm_pink.png",
-    "clean"     : "nukacraft:textures/weapons/classic10mm/classic10mm_clean.png",
-    "gold"      : "nukacraft:textures/weapons/classic10mm/classic10mm_gold.png"
+    "default"   : "falloutnuka:textures/guns/fallout_1_10mm/fallout_1_10mm.png"
   },
   "display": {
     "nonHandOffset": [0, -2.0, -1.2]
