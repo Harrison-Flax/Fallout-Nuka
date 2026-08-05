@@ -405,6 +405,11 @@
 					"name": "body",
 					"parent": "gun_arm",
 					"pivot": [0, 8, 0]
+				},
+				{
+					"name": "chamber",
+					"parent": "gun_arm",
+					"pivot": [0, 8, 0]
 				}
 			]
 		}

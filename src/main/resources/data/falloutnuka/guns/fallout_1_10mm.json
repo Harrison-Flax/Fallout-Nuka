@@ -10,7 +10,7 @@
     "maxAmmo": 10,
     "damage": 9.0,
     "reloadTime": 50,
-    "reloadAmount": 1,
+    "reloadAmount": 10,
     "recoilAngle": 7.0,
     "recoilKick": 0.4,
     "recoilAdsReduction": 0.15,
@@ -33,7 +33,7 @@
     }
   },
   "animations": {
-    "ntgl:reload": "ntgl:revolver_reload"
+    "ntgl:reload": "reload"
   },
   "ammoData": {
     "nukacraft:round10mm": {
