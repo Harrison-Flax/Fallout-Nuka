@@ -1,6 +1,25 @@
 {
-  "parent": "item/generated",
+  "credit": "Made with Blockbench",
+  "parent": "builtin/entity",
+  "texture_size": [
+    256,
+    256
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        132.78,
+        89.56,
+        -79.03
+      ],
+      "translation": [
+        1,
+        -2.75,
+        3.75
+      ]
+    }
+  },
   "textures": {
-    "layer0": "falloutnuka:item/fallout_1_10mm_icon"
+    "particle": "falloutnuka:item/fallout_1_10mm_icon"
   }
 }

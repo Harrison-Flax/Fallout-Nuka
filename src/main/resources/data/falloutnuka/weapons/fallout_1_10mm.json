@@ -33,7 +33,7 @@
     }
   },
   "animations": {
-    "ntgl:reload": "reload"
+    "ntgl:reload": "reload_one_hand"
   },
   "ammoData": {
     "nukacraft:round10mm": {
@@ -67,7 +67,7 @@
     "enchantedFire": "nukacraft:item.pistol10mm.enchanted_fire"
   },
   "textures": {
-    "default"   : "falloutnuka:textures/guns/fallout_1_10mm/fallout_1_10mm.png"
+    "default": "falloutnuka:textures/weapons/fallout_1_10mm/fallout_1_10mm.png"
   },
   "display": {
     "nonHandOffset": [0, -2.0, -1.2]
