@@ -8,18 +8,80 @@
   "display": {
     "thirdperson_righthand": {
       "rotation": [
-        132.78,
-        89.56,
-        -79.03
+        72,
+        91,
+        0
       ],
       "translation": [
+        0,
+        -3,
+        3
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        69.84999999999991,
+        -95,
+        -4
+      ],
+      "translation": [
+        0,
+        -2.5,
+        4
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        85.25,
+        0
+      ],
+      "translation": [
+        -0.25,
+        -4.75,
+        3
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        -105,
+        0
+      ],
+      "translation": [
+        -1.5,
+        -4.75,
+        1.75
+      ]
+    },
+    "gui": {
+      "translation": [
+        -3.5,
+        -7.5,
+        0
+      ],
+      "scale": [
+        0.8,
         1,
-        -2.75,
-        3.75
+        1
+      ]
+    },
+    "fixed": {
+      "translation": [
+        -4.75,
+        -8,
+        0
+      ]
+    },
+    "on_shelf": {
+      "translation": [
+        -2,
+        -8,
+        2.25
       ]
     }
   },
   "textures": {
-    "particle": "falloutnuka:item/fallout_1_10mm_icon"
+    "particle": "pistol10mm_default"
   }
 }
