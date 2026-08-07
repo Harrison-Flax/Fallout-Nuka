@@ -6,9 +6,9 @@
 				"identifier": "geometry.fallout_1_10mm",
 				"texture_width": 256,
 				"texture_height": 256,
-				"visible_bounds_width": 3,
-				"visible_bounds_height": 2.5,
-				"visible_bounds_offset": [0, 0.75, 0]
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 0.5, 0]
 			},
 			"bones": [
 				{
@@ -392,9 +392,11 @@
 					"pivot": [0, 8, 0],
 					"cubes": [
 						{
-							"origin": [-5.8, 3.2, -7.1],
+							"origin": [-16.8, 16.2, -20.1],
 							"size": [12, 4, 4],
 							"inflate": -0.5,
+							"pivot": [-5.2, 18.2, -3.1],
+							"rotation": [-90, 0, -180],
 							"uv": {
 								"north": {"uv": [104, 119], "uv_size": [8, 22]},
 								"east": {"uv": [0, 34], "uv_size": [10, 17]},
@@ -417,9 +419,11 @@
 					"pivot": [0, 8, 0],
 					"cubes": [
 						{
-							"origin": [-6.2, 3.2, 5.9],
+							"origin": [4.8, 3.2, 3.9],
 							"size": [12, 4, 4],
 							"inflate": -0.5,
+							"pivot": [5.2, 5.2, 7.9],
+							"rotation": [-90, 0, -180],
 							"uv": {
 								"north": {"uv": [6, 17], "uv_size": [5, 13]},
 								"east": {"uv": [62, 15], "uv_size": [10, -1]},

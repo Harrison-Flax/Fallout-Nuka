@@ -6,36 +6,36 @@
 			"animation_length": 0.5,
 			"bones": {
 				"right_arm_anim": {
-					"rotation": {
-						"vector": [0, 0, 0]
-					},
 					"position": {
 						"vector": [8, -1.45, 5.05]
+					},
+					"rotation": {
+						"vector": [0, 0, 0]
 					},
 					"scale": {
 						"vector": [1, 1, 1]
 					}
 				},
 				"left_arm_anim": {
-					"rotation": {
-						"vector": [0, 27.5, 0]
-					},
 					"position": {
 						"vector": [-4.37773, -2.05, 3.19235]
+					},
+					"rotation": {
+						"vector": [0, 27.5, 0]
 					},
 					"scale": {
 						"vector": [1, 1, 1]
 					}
 				},
 				"muzzle_flash": {
-					"rotation": {
-						"vector": [0, 0, 0]
-					},
 					"position": {
 						"vector": [0, 0, 0]
 					},
+					"rotation": {
+						"vector": [0, 0, 0]
+					},
 					"scale": {
-						"0.0": {
+						"0": {
 							"vector": [0, 0, 0]
 						},
 						"0.125": {
@@ -47,35 +47,27 @@
 					}
 				},
 				"gun_arm": {
-					"rotation": {
+					"position": {
 						"vector": [0, 0, 0]
 					},
-					"position": {
+					"rotation": {
 						"vector": [0, 0, 0]
 					}
 				},
 				"gun": {
+					"position": {
+						"vector": [0, 0, 0]
+					},
 					"rotation": {
-						"0.0": {
+						"0": {
 							"vector": [0, 0, 0]
 						},
 						"0.2083": {
 							"vector": [-5, 0, 0]
 						}
-					},
-					"position": {
-						"vector": [0, 0, 0]
 					}
 				},
 				"slide": {
-					"rotation": {
-						"0.0833": {
-							"vector": [0, 0, 0]
-						},
-						"0.4167": {
-							"vector": [0, 0, 0]
-						}
-					},
 					"position": {
 						"0.0833": {
 							"vector": [0, 0, 0]
@@ -86,28 +78,19 @@
 						"0.4167": {
 							"vector": [0, 0, 0]
 						}
+					},
+					"rotation": {
+						"0.0833": {
+							"vector": [0, 0, 0]
+						},
+						"0.4167": {
+							"vector": [0, 0, 0]
+						}
 					}
 				},
 				"bullet": {
-					"rotation": {
-						"0.0": {
-							"vector": [0, 0, 0]
-						},
-						"0.1667": {
-							"vector": [0, 0, 0]
-						},
-						"0.2083": {
-							"vector": [-9, 2.5, 0]
-						},
-						"0.25": {
-							"vector": [-41.59215, 12.01093, -22.88962]
-						},
-						"0.4583": {
-							"vector": [-360, 62.2397, -43.60384]
-						}
-					},
 					"position": {
-						"0.0": {
+						"0": {
 							"vector": [0, 0, 0]
 						},
 						"0.2083": {
@@ -132,8 +115,25 @@
 							"vector": [-23.15, -4.75, 0.23]
 						}
 					},
+					"rotation": {
+						"0": {
+							"vector": [0, 0, 0]
+						},
+						"0.1667": {
+							"vector": [0, 0, 0]
+						},
+						"0.2083": {
+							"vector": [-9, 2.5, 0]
+						},
+						"0.25": {
+							"vector": [-41.59215, 12.01093, -22.88962]
+						},
+						"0.4583": {
+							"vector": [-360, 62.2397, -43.60384]
+						}
+					},
 					"scale": {
-						"0.0": {
+						"0": {
 							"vector": [1, 1, 1]
 						},
 						"0.375": {
@@ -146,7 +146,7 @@
 				},
 				"saver": {
 					"rotation": {
-						"0.0": {
+						"0": {
 							"vector": [0, 0, 0]
 						},
 						"0.1667": {
@@ -159,7 +159,7 @@
 				},
 				"cock": {
 					"rotation": {
-						"0.0": {
+						"0": {
 							"vector": [0, 0, 0]
 						},
 						"0.0417": {
@@ -172,17 +172,6 @@
 					}
 				},
 				"model": {
-					"rotation": {
-						"0.0833": {
-							"vector": [0, 0, 0]
-						},
-						"0.1667": {
-							"vector": [-5, 0, 0]
-						},
-						"0.25": {
-							"vector": [0, 0, 0]
-						}
-					},
 					"position": {
 						"0.0833": {
 							"vector": [0, 0, 0]
@@ -193,23 +182,66 @@
 						"0.25": {
 							"vector": [0, 0, 0]
 						}
+					},
+					"rotation": {
+						"0.0833": {
+							"vector": [0, 0, 0]
+						},
+						"0.1667": {
+							"vector": [-5, 0, 0]
+						},
+						"0.25": {
+							"vector": [0, 0, 0]
+						}
 					}
 				},
 				"body": {
-					"rotation": {
+					"position": {
 						"vector": [0, 0, 0]
 					},
-					"position": {
+					"rotation": {
 						"vector": [0, 0, 0]
 					},
 					"scale": {
 						"vector": [1, 1, 1]
 					}
+				},
+				"left_arm": {
+					"position": {
+						"0": {
+							"vector": [0, 0, 0]
+						},
+						"0.208333": {
+							"vector": [10, 2, 1]
+						}
+					},
+					"rotation": {
+						"0": {
+							"vector": [0, 0, 0]
+						},
+						"0.208333": {
+							"vector": [1.3924, -28.9425, -0.4943]
+						}
+					}
+				},
+				"right_arm": {
+					"position": {
+						"0": {
+							"vector": [0, 0, 0]
+						},
+						"0.208333": {
+							"vector": [-2, 2, 0]
+						},
+						"0.25": {
+							"vector": [-2, 2, -6]
+						}
+					}
 				}
 			},
 			"sound_effects": {
-				"0.0": {
-					"effect": "fire"
+				"0": {
+					"effect": "fire",
+					"locator": ""
 				}
 			}
 		},
