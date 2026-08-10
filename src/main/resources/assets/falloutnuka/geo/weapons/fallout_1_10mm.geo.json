@@ -394,20 +394,19 @@
 				{
 					"name": "left_arm_anim",
 					"parent": "model",
-					"pivot": [3.8, 2.0, 1.6]
+					"pivot": [0, 8, 0]
 				},
 				{
 					"name": "left_arm",
 					"parent": "left_arm_anim",
-					"pivot": [3.0, 2.0, -2.0],
-					"rotation": [90, 0, -180],
+					"pivot": [0, 8, 0],
 					"cubes": [
 						{
-							"origin": [1.0, -4.0, -4.0],
+							"origin": [-1.8, 16.2, -28.1],
 							"size": [4, 12, 4],
 							"inflate": -0.5,
-							"pivot": [3.0, 2.0, -2.0],
-							"rotation": [0, 0, 180],
+							"pivot": [1.8, 18.2, -11.1],
+							"rotation": [-90, 0, -180],
 							"uv": {
 								"north": {"uv": [104, 119], "uv_size": [8, 22]},
 								"east": {"uv": [0, 34], "uv_size": [10, 17]},
@@ -421,21 +420,20 @@
 				},
 				{
 					"name": "right_arm_anim",
-					"parent": "gun_arm",
-					"pivot": [3.0, 3.0, 2.0]
+					"parent": "model",
+					"pivot": [0, 8, 0]
 				},
 				{
 					"name": "right_arm",
 					"parent": "right_arm_anim",
-					"pivot": [3.0, 3.0, -2.0],
-					"rotation": [90, 0, -180],
+					"pivot": [0, 8, 0],
 					"cubes": [
 						{
-							"origin": [1.0, -3.0, -4.0],
+							"origin": [12.8, 3.2, 3.9],
 							"size": [4, 12, 4],
 							"inflate": -0.5,
-							"pivot": [3.0, 3.0, -2.0],
-							"rotation": [0, 0, 180],
+							"pivot": [5.2, 5.2, 7.9],
+							"rotation": [-90, 0, -180],
 							"uv": {
 								"north": {"uv": [6, 17], "uv_size": [5, 13]},
 								"east": {"uv": [62, 15], "uv_size": [10, -1]},
