@@ -2,6 +2,8 @@ Reference: https://github.com/Jetug/NukaTeamGunLib/wiki/NTGL-gun-packs
 
 DEPENDENCIES REQUIRED: NukaCraft (1.19.6), NTGL (3.1.2), and AzureLib (3.1.12) - ONLY WORKS WITH MINECRAFT 1.20.1!
 
+Download JAR: https://www.dropbox.com/scl/fi/gxhafxld7lne0db6zas15/falloutnuka-1.0.0.jar?rlkey=cxhq2ypk84u0pv3yrs0zuzqq4&st=2g1vnpri&dl=0
+
 Source installation information for modders
 -------------------------------------------
 This code follows the Minecraft Forge installation methodology. It will apply
