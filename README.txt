@@ -1,5 +1,7 @@
 Reference: https://github.com/Jetug/NukaTeamGunLib/wiki/NTGL-gun-packs
 
+DEPENDENCIES REQUIRED: NukaCraft (1.19.6), NTGL (3.1.2), and AzureLib (3.1.12) - ONLY WORKS WITH MINECRAFT 1.20.1!
+
 Source installation information for modders
 -------------------------------------------
 This code follows the Minecraft Forge installation methodology. It will apply
